@@ -28,6 +28,10 @@ Here's how to log in and start the app:
     cd /vagrant
     python ./app.py
 
+How to print a process tree:
+
+    ps axjf
+
 
 ### Docker
 
@@ -45,6 +49,10 @@ Login to the Docker container to look around:
 
     docker run --name test --rm -i -t jramnani/hello-flask bash
     
+How to print a process tree:
+
+    ps axjf
+
 
 [Vagrant]: https://www.vagrantup.com/
 [Docker]: https://docker.com
