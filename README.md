@@ -54,7 +54,16 @@ How to print a process tree:
     ps axjf
 
 
+Docker Resources:
+
+* [Docker Overview]
+* [Dockerfile Syntax]
+* [Docker Run Reference]
+
 [Vagrant]: https://www.vagrantup.com/
 [Docker]: https://docker.com
 [Flask]: http://flask.pocoo.org/
 
+[Docker Overview]: https://docs.docker.com/engine/understanding-docker/
+[Dockerfile Syntax]: https://docs.docker.com/engine/reference/builder/
+[Docker Run Reference]: https://docs.docker.com/engine/reference/run/
