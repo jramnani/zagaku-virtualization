@@ -1,8 +1,8 @@
-FROM python:3.5.2
+FROM ubuntu:14.04.5
 
-# http://bugs.python.org/issue19846
-# > At the moment, setting "LANG=C" on a Linux system *fundamentally breaks Python 3*, and that's not OK.
-ENV LANG C.UTF-8
+# Install dependencies
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install python python-dev python-pip python-virtualenv
 
 RUN mkdir /app
 ADD hello-flask /app
